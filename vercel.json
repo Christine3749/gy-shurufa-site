@@ -1,0 +1,8 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [
+    { "source": "/", "destination": "/brand-release/index.html" },
+    { "source": "/gy-wordmark.svg", "destination": "/brand-release/gy-wordmark.svg" },
+    { "source": "/gy-app-icon.svg", "destination": "/brand-release/gy-app-icon.svg" }
+  ]
+}
