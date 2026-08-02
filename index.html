@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0b1220" />
+    <meta name="description" content="GY输入法：为顺滑、可靠的中文输入而设计。" />
+    <title>GY输入法｜让每一次输入，成为更好的开始。</title>
+    <style>
+      :root { color-scheme: dark; --ink:#eaf1ff; --muted:#9cabbd; --line:rgba(173,206,255,.16); --cyan:#61d9ff; --bg:#080d17; }
+      * { box-sizing:border-box; } body { margin:0; background:var(--bg); color:var(--ink); font-family:"Microsoft YaHei UI","PingFang SC",system-ui,sans-serif; }
+      .shell { min-height:100vh; overflow:hidden; background:radial-gradient(circle at 72% 22%,rgba(30,136,208,.22),transparent 27rem),radial-gradient(circle at 12% 94%,rgba(72,211,226,.12),transparent 28rem),linear-gradient(145deg,#080d17,#0d1727 55%,#080d17); }
+      .wrap { width:min(1120px,calc(100% - 48px)); margin:auto; } nav { height:82px; display:flex; align-items:center; justify-content:space-between; border-bottom:1px solid var(--line); }
+      .brand { display:flex; align-items:center; gap:11px; font-size:18px; font-weight:700; letter-spacing:.02em; } .mark { width:32px; height:32px; display:grid; place-items:center; color:#09101b; font-size:13px; font-weight:900; border-radius:10px; background:linear-gradient(135deg,#c2f3ff,#55ccef); }
+      .status { color:#b8cad8; border:1px solid var(--line); padding:8px 12px; border-radius:999px; font-size:12px; } main { padding:125px 0 92px; }
+      .eyebrow { color:var(--cyan); letter-spacing:.18em; font-size:12px; font-weight:700; } h1 { max-width:820px; margin:22px 0; font-size:clamp(46px,8vw,92px); line-height:1.03; letter-spacing:-.065em; } .lead { max-width:590px; color:var(--muted); font-size:18px; line-height:1.8; }
+      .actions { display:flex; align-items:center; gap:14px; margin-top:36px; flex-wrap:wrap; } .button { display:inline-flex; align-items:center; justify-content:center; min-height:48px; padding:0 20px; border-radius:13px; border:1px solid var(--line); color:var(--ink); text-decoration:none; font-weight:650; font-size:14px; } .button.primary { color:#06101a; background:var(--cyan); border-color:var(--cyan); }
+      .panel { margin-top:86px; display:grid; grid-template-columns:1.15fr .85fr; gap:1px; overflow:hidden; border:1px solid var(--line); border-radius:22px; background:var(--line); } .cell { min-height:174px; padding:27px; background:rgba(8,15,27,.84); } .cell b { display:block; margin-bottom:9px; font-size:16px; } .cell p { margin:0; color:var(--muted); font-size:14px; line-height:1.7; } footer { padding:27px 0 38px; border-top:1px solid var(--line); display:flex; justify-content:space-between; color:#718195; font-size:12px; }
+      @media (max-width:640px) { .wrap{width:min(100% - 32px,1120px)} nav{height:70px}.status{display:none} main{padding:80px 0 64px} .panel{margin-top:58px;grid-template-columns:1fr} footer{gap:12px;flex-direction:column} }
+    </style>
+  </head>
+  <body><div class="shell"><div class="wrap">
+    <nav><div class="brand"><span class="mark">GY</span><span>GY输入法</span></div><span class="status">Windows 版 · 开发预览中</span></nav>
+    <main>
+      <div class="eyebrow">GSYEN · INPUT, REFINED</div>
+      <h1>让每一次输入，<br />成为更好的开始。</h1>
+      <p class="lead">GY输入法是一款面向 Windows 的中文输入法。我们正专注打磨最重要的部分：顺滑、可靠、默认本地优先的打字体验。</p>
+      <div class="actions"><a class="button primary" href="#preview">Windows 版即将开放</a><a class="button" href="https://shurufa.wang">关注发布进度</a></div>
+      <section class="panel" id="preview"><article class="cell"><b>先把基础输入做好</b><p>候选、选词、切换和学习习惯，都应当自然到不需要被注意。</p></article><article class="cell"><b>本地优先</b><p>基础输入体验应当稳定、可控，并尊重你的文字与隐私。</p></article><article class="cell"><b>AI 只在需要时出现</b><p>AI 是明确触发的增强能力，不打断输入，也不替你做决定。</p></article><article class="cell"><b>发布前先完成验证</b><p>正式下载将在 Windows 版经过完整测试、安装包签名与校验信息准备就绪后开放。</p></article></section>
+    </main>
+    <footer><span>© 2026 GSYEN. All rights reserved.</span><span>shurufa.wang</span></footer>
+  </div></div></body>
+</html>
